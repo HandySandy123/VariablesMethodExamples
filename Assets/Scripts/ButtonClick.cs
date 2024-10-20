@@ -26,7 +26,7 @@ public class ButtonClick : MonoBehaviour
         bool success = int.TryParse(value, out number);
         if (success)
         {
-            mMethod.IncreaseAgeByX(number);
+            mMethod.IncreaseAge(number);
         } else
         {
             Debug.Log("Input failed");
