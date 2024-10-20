@@ -32,7 +32,7 @@ public class MyFirstVariableandMethod : MonoBehaviour
         PrintAge();
     }
 
-    public void IncreaseAgeByX(int X)
+    public void IncreaseAge(int X)
     {
         CurrentAge += X;
         PrintAge();
